@@ -1,0 +1,79 @@
+Orgzly'e Hoşgeldiniz!
+
+Notlar
+Açmak için nota tıklayın
+Notu seçmek için tıklayın ve basılı tutun
+
+Birden fazla not seçebilirsiniz.
+
+Hızlı menü nota sağ tıklanırsa açılır
+
+Nota sol tıklanırsa farklı bir menü açılır.
+
+Yanındaki simgeler tıklandığında alt notları içeren notlar kapanır
+Sahip olabileceğiniz seviyelerin sınırı yoktur
+Notlarınızı daha iyi düzenlemek için bunu kullanın
+
+Not etiketleri olabilir :etiket1:tag2:
+Alt not etiketleri devralır :tag3:
+
+Eğer "Tag1" etiketi içeren notları ararsanız, bu not da döndürülür.
+
+TODO Not bir durumu belirtebilir
+
+Kullanılacak herhangi bir sınıfta durumu yapılandırabilirsiniz: TODO, NEXT, DONE, vb.
+
+İki tür sınıf vardır: to-do ve done
+
+DONE Bu notta bir sınıf türüdür
+CLOSED: [2018-01-24 Çarş. 17:00]
+
+Not belirlenmiş bir zaman içerebilir
+SCHEDULED: <2015-02-20 Cuma 15:15>
+
+Zamanlar bir tekrarlayıcı olabilir
+SCHEDULED: <2015-02-16 Pzt. .+1d>
+
+Ayrıca zaman sınırı olarak bir tarih ayarlayabilirsiniz
+DEADLINE: <2015-02-20 Cuma>
+
+Not bağlantıları kullanabilir
+
+Telefon numarasını tuşlayın (tel:555-2368) ya da [[sms:555-2368][SMS gönderin]].
+
+[[Mailto: support@orgzly.com] [support@orgzly.com] adresine e-posta gönderin, http://www.orgzly.com adresini ziyaret edin veya [[http://www.orgzly.com/help][documentation] adresini ziyaret edin.]].
+
+Temel yazı karakteri önemi desteklenmektedir
+
+Kelimeleri * kalın *, / italik /, _altıçizili_, = kelimesi kelimesine =, ~ kod ~ ve + doğrudan vurgulama + yapabilirsiniz.
+
+** Checkbox list is available
+
+- [X] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+Click the checkbox to toggle it. Press new-line button at the end of the line to create a new item.
+
+Arama
+Birçok arama operatörü desteklenmektedir
+
+Notları sınıfına, etiketine, zamanlanmış veya son teslim zamanı vb. Göre arayabilirsiniz.
+
+Daha fazlası için http://www.orgzly.com/help#search siteyi görün.
+
+Arama sorguları hızlı sorgu için kaydedilebilir
+
+Gezinme penceresinden örnek aramaları deneyin ve kullandıkları soruları not edin.
+
+Gezinme penceresinde bulunan "Aramalar" ı tıklayarak kendi kaydedilmiş aramalarınızı oluşturabilirsiniz.
+
+Senkronizasyon
+
+Dizüstü bilgisayarlar düz metin dosyaları olarak kaydedilebilir
+
+Dosyalar "Org mode" tarafından kullanılmış formatları içerir.
+
+Konum (depo) türü
+
+Dizüstü bilgisayarlarınızı mobil cihazınızdaki, SD kartınızdaki veya Dropbox'taki bir dizinde senkronize şekilde tutabilirsiniz.

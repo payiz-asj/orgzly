@@ -1,0 +1,79 @@
+Selamat datang di Orgzly!
+
+* Catatan
+** Tekan di catatan untuk membuka ini
+** Tekan dan tahan catatan untuk memilih nya
+
+Anda dapat membuat beberapa catatan.
+
+Fling note kanan untuk membuka menu cepatnya
+
+Fling itu dibiarkan membuka menu yang berbeda.
+
+** Lipat catatan yang berisi sub-catatan dengan mengklik ikon di sebelahnya
+*** Tidak ada batas jumlah level yang bisa anda miliki
+**** Gunakan ini untuk mengatur catatan anda dengan lebih baik
+
+** Catatan harus ada tag :tag1:tag2:
+*** Sub-catatan mewarisi tag :tag3:
+
+Jika Anda mencari catatan dengan tag "tag1", catatan ini akan dikembalikan juga.
+
+** Catatan TODO harus memiliki status
+
+Anda dapat mengkonfigurasi sejumlah bagian negara untuk menggunakan: TODO, NEXT, DONE, dll.
+
+*** There are two /types/ of states: to-do and done
+
+*** DONE This is a note with /done/ type of state
+CLOSED: [2018-01-24 Wed 17:00]
+
+** Catatan harus memiliki jadwal waktu
+SCHEDULED: <2015-02-20 Fri 15:15>
+
+*** Waktu bisa memiliki pengulang
+SCHEDULED: <2015-02-16 Mon .+1d>
+
+** Anda juga bisa menetapkan tanggal waktu
+DEADLINE: <2015-02-20 Fri>
+
+** Catatan bisa menggunakan tautan
+
+Dial a phone number (tel:555-2368) or [[sms:555-2368][send SMS]].
+
+Send email to [[mailto:support@orgzly.com][support@orgzly.com]], visit http://www.orgzly.com or read [[http://www.orgzly.com/help][documentation]].
+
+** Dasar tekanan typografi di dukung
+
+You can make words *bold*, /italic/, _underlined_, =verbatim=, ~code~ and +strike-through+.
+
+** Checkbox list is available
+
+- [X] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+Click the checkbox to toggle it. Press new-line button at the end of the line to create a new item.
+
+* Pencarian
+Ada banyak operator pencarian yang didukung
+
+Anda dapat mencari catatan menurut negara, tag, jadal atau tanggal waktu dll.
+
+See http://www.orgzly.com/help#search to learn more.
+
+pertanyaan penelusuran dapat disimpan untuk akses cepat
+
+Cobalah contoh penelusuran dari laci navigasi dan catat pertanyaan yang mereka gunakan.
+
+Anda dapat membuat pencarian tersimpan Anda sendiri dengan menekan "Searches" di laci navigasi.
+
+* Sinkronisasi
+
+** Notebooks can be saved as plain-text files
+
+File dalam format yang digunakan oleh"Org mode".
+
+** Jenis lokasi (repositori)
+
+Anda dapat menyimpan buku catatan dengan disinkronkan dengan sebuah direktori pada perangkat mobile Anda, kartu SD atau Dropbox.

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Overwrite system Locale -->
+    <string name="pref_key_ignore_system_locale" translatable="false">pref_key_ignore_system_locale</string>
+    <bool name="pref_default_ignore_system_locale" translatable="false">false</bool>
+
+    <!-- How to display notebook's preface in notebook -->
+    <string name="pref_key_preface_in_book" translatable="false">pref_key_preface_in_book</string>
+    <string name="pref_default_preface_in_book" translatable="false">@string/pref_value_preface_in_book_hide</string>
+    <string name="pref_value_preface_in_book_hide" translatable="false">hide</string>
+    <string name="pref_value_preface_in_book_full" translatable="false">full</string>
+    <string name="pref_value_preface_in_book_few_lines" translatable="false">few_lines</string>
+    <string-array name="preface_in_book_entries">
+        <item>@string/preface_in_book_full</item>
+        <item>@string/preface_in_book_few_lines</item>
+        <item>@string/preface_in_book_hide</item>
+    </string-array>
+    <string-array name="preface_in_book_entry_values">
+        <item>@string/pref_value_preface_in_book_full</item>
+        <item>@string/pref_value_preface_in_book_few_lines</item>
+        <item>@string/pref_value_preface_in_book_hide</item>
+    </string-array>
+
+    <string name="pref_key_is_reverse_click_action" translatable="false">pref_key_is_reverse_click_action</string>
+    <bool name="pref_default_is_reverse_click_action" translatable="false">false</bool>
+
+    <string name="pref_key_is_notes_content_displayed_in_list" translatable="false">pref_key_is_notes_content_displayed_in_list</string>
+    <bool name="pref_default_is_notes_content_displayed_in_list" translatable="false">true</bool>
+
+    <string name="pref_key_display_planning" translatable="false">pref_key_display_planning</string>
+    <bool name="pref_default_display_planning" translatable="false">true</bool>
+
+    <!-- Book name in search results. -->
+    <string name="pref_key_book_name_in_search" translatable="false">pref_key_book_name_in_search</string>
+    <string name="pref_default_book_name_in_search" translatable="false">@string/pref_value_book_name_in_search_2</string>
+    <string name="pref_value_book_name_in_search_0" translatable="false">0</string>
+    <string name="pref_value_book_name_in_search_1" translatable="false">1</string>
+    <string name="pref_value_book_name_in_search_2" translatable="false">2</string>
+    <string-array name="book_name_in_search_entries">
+        <item>@string/book_name_in_search_hide</item>
+        <item>@string/book_name_in_search_before_note</item>
+        <item>@string/book_name_in_search_under_note</item>
+    </string-array>
+    <string-array name="book_name_in_search_entry_values">
+        <item>@string/pref_value_book_name_in_search_0</item>
+        <item>@string/pref_value_book_name_in_search_1</item>
+        <item>@string/pref_value_book_name_in_search_2</item>
+    </string-array>
+
+    <string name="pref_key_display_inherited_tags_in_search_results" translatable="false">pref_key_display_inherited_tags_in_search_results</string>
+    <bool name="pref_default_display_inherited_tags_in_search_results" translatable="false">false</bool>
+
+    <string name="pref_key_is_notes_content_displayed_in_search" translatable="false">pref_key_is_notes_content_displayed_in_search</string>
+    <bool name="pref_default_is_notes_content_displayed_in_search" translatable="false">false</bool>
+
+    <string name="pref_key_is_notes_content_foldable" translatable="false">pref_key_is_notes_content_foldable</string>
+    <bool name="pref_default_is_notes_content_foldable" translatable="false">true</bool>
+
+    <string name="pref_key_content_line_count_displayed" translatable="false">pref_key_content_line_count_displayed</string>
+    <bool name="pref_default_content_line_count_displayed" translatable="false">true</bool>
+
+    <string name="pref_key_is_font_monospaced" translatable="false">pref_key_is_font_monospaced</string>
+    <bool name="pref_default_is_font_monospaced" translatable="false">false</bool>
+
+    <string name="pref_key_style_text" translatable="false">pref_key_style_text</string>
+    <bool name="pref_default_style_text" translatable="false">true</bool>
+
+    <string name="pref_key_styled_text_with_marks" translatable="false">pref_key_styled_text_with_marks</string>
+    <bool name="pref_default_styled_text_with_marks" translatable="false">false</bool>
+
+    <!-- Notebooks' sort order. -->
+    <string name="pref_key_notebooks_sort_order" translatable="false">pref_key_notebooks_sort_order</string>
+    <string name="pref_default_notebooks_sort_order" translatable="false">@string/pref_value_notebooks_sort_order_name</string>
+    <string name="pref_value_notebooks_sort_order_name" translatable="false">name</string>
+    <string name="pref_value_notebooks_sort_order_modification_time" translatable="false">mtime</string>
+    <string-array name="notebooks_sort_order">
+        <item>@string/notebooks_sort_order_name</item>
+        <item>@string/notebooks_sort_order_modification_time</item>
+    </string-array>
+    <string-array name="notebooks_sort_order_values">
+        <item>@string/pref_value_notebooks_sort_order_name</item>
+        <item>@string/pref_value_notebooks_sort_order_modification_time</item>
+    </string-array>
+
+    <!-- Notes' list density. -->
+    <string name="pref_key_notes_list_density" translatable="false">pref_key_notes_list_density</string>
+    <string name="pref_default_notes_list_density" translatable="false">@string/pref_value_list_density_comfortable</string>
+    <string name="pref_value_list_density_comfortable" translatable="false">comfortable</string>
+    <string name="pref_value_list_density_cozy" translatable="false">cozy</string>
+    <string name="pref_value_list_density_compact" translatable="false">compact</string>
+    <string-array name="list_density">
+        <item>@string/list_density_comfortable</item>
+        <item>@string/list_density_cozy</item>
+        <item>@string/list_density_compact</item>
+    </string-array>
+    <string-array name="list_density_values">
+        <item>@string/pref_value_list_density_comfortable</item>
+        <item>@string/pref_value_list_density_cozy</item>
+        <item>@string/pref_value_list_density_compact</item>
+    </string-array>
+
+    <!-- Color scheme. -->
+    <string name="pref_key_color_scheme" translatable="false">pref_key_color_scheme</string>
+    <string name="pref_default_color_scheme" translatable="false">@string/pref_value_color_scheme_light</string>
+    <string name="pref_value_color_scheme_light" translatable="false">light</string>
+    <string name="pref_value_color_scheme_dark" translatable="false">dark</string>
+    <string name="pref_value_color_scheme_black" translatable="false">black</string>
+    <string-array name="color_scheme">
+        <item>@string/color_scheme_light</item>
+        <item>@string/color_scheme_dark</item>
+        <item>@string/color_scheme_black</item>
+    </string-array>
+    <string-array name="color_scheme_values">
+        <item>@string/pref_value_color_scheme_light</item>
+        <item>@string/pref_value_color_scheme_dark</item>
+        <item>@string/pref_value_color_scheme_black</item>
+    </string-array>
+
+    <!-- Font size. -->
+    <string name="pref_key_font_size" translatable="false">pref_key_font_size</string>
+    <string name="pref_default_font_size" translatable="false">@string/pref_value_font_size_default</string>
+    <string name="pref_value_font_size_small" translatable="false">small</string>
+    <string name="pref_value_font_size_default" translatable="false">default</string>
+    <string name="pref_value_font_size_large" translatable="false">large</string>
+    <string-array name="font_sizes">
+        <item>@string/font_size_small</item>
+        <item>@string/font_size_default</item>
+        <item>@string/font_size_large</item>
+    </string-array>
+    <string-array name="font_sizes_values">
+        <item>@string/pref_value_font_size_small</item>
+        <item>@string/pref_value_font_size_default</item>
+        <item>@string/pref_value_font_size_large</item>
+    </string-array>
+
+    <!-- Displayed book details. -->
+    <string name="pref_key_displayed_book_details" translatable="false">pref_key_displayed_book_details</string>
+    <string-array name="displayed_book_details_default">
+        <item>@string/pref_value_book_details_mtime</item>
+        <item>@string/pref_value_book_details_last_action</item>
+    </string-array>
+    <string name="pref_value_book_details_mtime" translatable="false">book_details_mtime</string>
+    <string name="pref_value_book_details_link_url" translatable="false">book_details_link_url</string>
+    <string name="pref_value_book_details_sync_url" translatable="false">book_details_sync_url</string>
+    <string name="pref_value_book_details_sync_mtime" translatable="false">book_details_sync_mtime</string>
+    <string name="pref_value_book_details_sync_revision" translatable="false">book_details_sync_revision</string>
+    <string name="pref_value_book_details_encoding_selected" translatable="false">book_details_encoding_selected</string>
+    <string name="pref_value_book_details_encoding_detected" translatable="false">book_details_encoding_detected</string>
+    <string name="pref_value_book_details_encoding_used" translatable="false">book_details_encoding_used</string>
+    <string name="pref_value_book_details_last_action" translatable="false">book_details_last_action</string>
+    <string name="pref_value_book_details_notes_count" translatable="false">book_details_notes_count</string>
+    <string-array name="displayed_book_details">
+        <item>@string/displayed_book_details_local_mtime</item>
+        <item>@string/displayed_book_details_notes_count</item>
+        <item>@string/displayed_book_details_link_url</item>
+        <item>@string/displayed_book_details_sync_url</item>
+        <item>@string/displayed_book_details_sync_mtime</item>
+        <item>@string/displayed_book_details_sync_revision</item>
+        <item>@string/displayed_book_details_selected_encoding</item>
+        <item>@string/displayed_book_details_detected_encoding</item>
+        <item>@string/displayed_book_details_used_encoding</item>
+        <item>@string/displayed_book_details_last_action</item>
+    </string-array>
+    <string-array name="displayed_book_details_values">
+        <item>@string/pref_value_book_details_mtime</item>
+        <item>@string/pref_value_book_details_notes_count</item>
+        <item>@string/pref_value_book_details_link_url</item>
+        <item>@string/pref_value_book_details_sync_url</item>
+        <item>@string/pref_value_book_details_sync_mtime</item>
+        <item>@string/pref_value_book_details_sync_revision</item>
+        <item>@string/pref_value_book_details_encoding_selected</item>
+        <item>@string/pref_value_book_details_encoding_detected</item>
+        <item>@string/pref_value_book_details_encoding_used</item>
+        <item>@string/pref_value_book_details_last_action</item>
+    </string-array>
+
+    <string name="pref_key_new_note_state" translatable="false">pref_key_new_note_state</string>
+    <string name="pref_default_new_note_state" translatable="false">NOTE</string>
+
+    <string name="pref_key_is_new_note_scheduled" translatable="false">pref_key_is_new_note_scheduled</string>
+    <bool name="pref_default_is_new_note_scheduled" translatable="false">false</bool>
+
+    <string name="pref_key_is_created_at_added" translatable="false">pref_key_is_created_at_added</string>
+    <bool name="pref_default_is_created_at_added" translatable="false">false</bool>
+
+    <string name="pref_key_created_at_property" translatable="false">pref_key_created_at_property</string>
+    <string name="pref_default_created_at_property" translatable="false">@string/created_property_name</string>
+
+    <string name="pref_key_share_notebook" translatable="false">pref_key_share_notebook</string>
+    <string name="pref_default_share_notebook" translatable="false">@string/default_share_notebook</string>
+
+    <string name="pref_key_force_utf8" translatable="false">pref_key_force_utf8</string>
+    <bool name="pref_default_force_utf8" translatable="false">false</bool>
+
+    <string name="pref_key_new_note_notification" translatable="false">pref_key_new_note_notification</string>
+    <bool name="pref_default_new_note_notification" translatable="false">false</bool>
+
+    <string name="pref_key_reminders_sound" translatable="false">pref_key_reminders_sound</string>
+    <bool name="pref_default_reminders_sound" translatable="false">true</bool>
+
+    <string name="pref_key_reminders_vibrate" translatable="false">pref_key_reminders_vibrate</string>
+    <bool name="pref_default_reminders_vibrate" translatable="false">false</bool>
+
+    <string name="pref_key_reminders_led" translatable="false">pref_key_reminders_led</string>
+    <bool name="pref_default_reminders_led" translatable="false">true</bool>
+
+    <!-- Auto-sync -->
+
+    <string name="pref_key_auto_sync" translatable="false">pref_key_auto_sync</string>
+    <bool name="pref_default_auto_sync" translatable="false">false</bool>
+
+    <string name="pref_key_auto_sync_on_note_create" translatable="false">pref_key_auto_sync_on_note_create</string>
+    <bool name="pref_default_auto_sync_on_note_create" translatable="false">false</bool>
+
+    <string name="pref_key_auto_sync_on_note_update" translatable="false">pref_key_auto_sync_on_note_update</string>
+    <bool name="pref_default_auto_sync_on_note_update" translatable="false">false</bool>
+
+    <string name="pref_key_auto_sync_on_resume" translatable="false">pref_key_auto_sync_on_resume</string>
+    <bool name="pref_default_auto_sync_on_resume" translatable="false">false</bool>
+
+    <string name="pref_key_auto_sync_on_repo_change" translatable="false">pref_key_auto_sync_on_repo_change</string>
+    <bool name="pref_default_auto_sync_on_repo_change" translatable="false">false</bool>
+
+
+    <string name="pref_key_snooze_time" translatable="false">pref_key_snooze_time</string>
+    <string name="pref_default_snooze_time" translatable="false">5</string>
+
+    <string name="pref_key_snooze_type" translatable="false">pref_key_snooze_type</string>
+    <string name="pref_default_snooze_type">button</string>
+    <string-array name="snooze_types">
+        <item>Relative to when you tap the snooze button</item>
+        <item>Relative to reminder time</item>
+    </string-array>
+    <string-array name="snooze_type_values">
+        <item>button</item>
+        <item>alarm</item>
+    </string-array>
+
+    <string name="pref_key_use_reminders_for_scheduled_times" translatable="false">pref_key_use_reminders_for_scheduled_times</string>
+    <bool name="pref_default_use_reminders_for_scheduled_times" translatable="false">false</bool>
+
+    <string name="pref_key_use_reminders_for_deadline_times" translatable="false">pref_key_use_reminders_for_deadline_times</string>
+    <bool name="pref_default_use_reminders_for_deadline_times" translatable="false">false</bool>
+
+    <string name="pref_key_reminders_channel_notification_settings" translatable="false">pref_key_reminders_channel_notification_settings</string>
+    <string name="pref_key_reminders_notification_settings" translatable="false">pref_key_reminders_notification_settings</string>
+
+    <string name="pref_key_show_sync_notifications" translatable="false">pref_key_show_sync_notifications</string>
+    <bool name="pref_default_show_sync_notifications" translatable="false">false</bool>
+
+    <string name="pref_key_note_metadata_visibility" translatable="false">pref_key_note_metadata_visibility</string>
+    <string name="pref_default_note_metadata_visibility" translatable="false">all</string>
+
+    <string name="pref_key_always_show_set_note_metadata" translatable="false">pref_key_always_show_set_note_metadata</string>
+    <bool name="pref_default_always_show_set_note_metadata" translatable="false">true</bool>
+
+    <string name="pref_key_selected_note_metadata" translatable="false">pref_key_selected_note_metadata</string>
+    <string-array name="note_metadata">
+        <item>@string/tags</item>
+        <item>@string/state</item>
+        <item>@string/priority</item>
+        <item>@string/schedule_button_hint</item>
+        <item>@string/deadline_button_hint</item>
+        <item>@string/properties</item>
+    </string-array>
+    <string-array name="note_metadata_values">
+        <item>tags</item>
+        <item>state</item>
+        <item>priority</item>
+        <item>scheduled_time</item>
+        <item>deadline_time</item>
+        <item>properties</item>
+    </string-array>
+    <string-array name="pref_default_selected_note_metadata">
+        <item>tags</item>
+        <item>state</item>
+        <item>scheduled_time</item>
+    </string-array>
+
+    <string name="pref_key_states" translatable="false">pref_key_states</string>
+    <string name="pref_default_states" translatable="false">TODO NEXT | DONE</string>
+
+    <string name="pref_key_default_priority" translatable="false">pref_key_default_priority</string>
+    <string name="pref_default_default_priority" translatable="false">B</string>
+
+    <string name="pref_key_min_priority" translatable="false">pref_key_min_priority</string>
+    <string name="pref_default_min_priority" translatable="false">C</string>
+
+    <string-array name="priorities">
+        <item>@string/priority_a_highest</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>@string/priority_z_lowest</item>
+    </string-array>
+
+    <string-array name="priority_values" translatable="false">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <string name="pref_key_drawers_folded" translatable="false">pref_key_drawers_folded</string>
+    <bool name="pref_default_drawers_folded" translatable="false">true</bool>
+
+    <string name="pref_key_log_on_time_shift" translatable="false">pref_key_log_on_time_shift</string>
+    <bool name="pref_default_log_on_time_shift" translatable="false">false</bool>
+
+    <string name="pref_key_set_last_repeat_on_time_shift" translatable="false">pref_key_set_last_repeat_on_time_shift</string>
+    <bool name="pref_default_set_last_repeat_on_time_shift" translatable="false">true</bool>
+
+    <!-- Separate notes with an empty line -->
+    <string name="pref_key_separate_notes_with_new_line" translatable="false">pref_key_separate_notes_with_new_line</string>
+    <string name="pref_default_separate_notes_with_new_line" translatable="false">@string/pref_value_separate_notes_with_new_line_multi_line_notes_only</string>
+    <string name="pref_value_separate_notes_with_new_line_always" translatable="false">separate_notes_with_new_line_always</string>
+    <string name="pref_value_separate_notes_with_new_line_multi_line_notes_only" translatable="false">separate_notes_with_new_line_multi_line_notes_only</string>
+    <string name="pref_value_separate_notes_with_new_line_never" translatable="false">separate_notes_with_new_line_never</string>
+    <string-array name="separate_notes_with_new_line_names">
+        <item>@string/separate_notes_with_new_line_always</item>
+        <item>@string/separate_notes_with_new_line_multi_line_notes_only</item>
+        <item>@string/separate_notes_with_new_line_never</item>
+    </string-array>
+    <string-array name="separate_notes_with_new_line_values">
+        <item>@string/pref_value_separate_notes_with_new_line_always</item>
+        <item>@string/pref_value_separate_notes_with_new_line_multi_line_notes_only</item>
+        <item>@string/pref_value_separate_notes_with_new_line_never</item>
+    </string-array>
+
+    <!-- Separate header and content with an empty line -->
+    <string name="pref_key_separate_header_and_content_with_new_line" translatable="false">pref_key_separate_header_and_content_with_new_line</string>
+    <bool name="pref_default_separate_header_and_content_with_new_line" translatable="false">true</bool>
+
+    <!-- Tags column -->
+    <string name="pref_key_tags_column" translatable="false">pref_key_org_tags_column</string>
+    <string name="pref_default_tags_column" translatable="false">0</string>
+
+    <string name="pref_key_org_indent_mode" translatable="false">pref_key_org_indent_mode</string>
+    <bool name="pref_default_org_indent_mode" translatable="false">false</bool>
+
+    <string name="pref_key_org_indent_indentation_per_level" translatable="false">pref_key_org_indent_indentation_per_level</string>
+    <string name="pref_default_org_indent_indentation_per_level" translatable="false">2</string>
+
+    <!-- Widget -->
+
+    <string name="pref_key_widget_color_scheme" translatable="false">pref_key_widget_color_scheme</string>
+    <string name="pref_default_widget_color_scheme" translatable="false">light</string>
+
+    <string name="pref_key_widget_opacity" translatable="false">pref_key_widget_opacity</string>
+    <string name="pref_default_widget_opacity" translatable="false">98</string>
+
+    <string name="pref_key_widget_font_size" translatable="false">pref_key_widget_font_size</string>
+    <string name="pref_default_widget_font_size" translatable="false">14</string>
+    <string-array name="widget_font_sizes">
+        <item>@string/font_size_default</item>
+        <item>@string/font_size_large</item>
+    </string-array>
+    <string-array name="widget_font_sizes_values">
+        <item>14</item>
+        <item>16</item>
+    </string-array>
+
+    <string name="pref_key_widget_update_frequency" translatable="false">pref_key_widget_update_frequency</string>
+    <string name="pref_default_widget_update_frequency" translatable="false">60</string>
+    <string-array name="widget_update_frequency">
+        <item>5 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 h</item>
+    </string-array>
+    <string-array name="widget_update_frequency_values">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string name="pref_key_widget_display_book_name" translatable="false">pref_key_widget_display_book_name</string>
+    <bool name="pref_default_widget_display_book_name" translatable="false">false</bool>
+
+    <!-- Git preferences -->
+    <string name="pref_key_git_author" traslatable="false">pref_key_git_author</string>
+    <string name="pref_key_git_email" traslatable="false">pref_key_git_email</string>
+    <string name="pref_key_git_ssh_key_path" traslatable="false">pref_key_git_ssh_key_path</string>
+    <string name="pref_key_git_repository_filepath" traslatable="false">pref_key_git_repository_filepath</string>
+    <string name="pref_key_git_remote_name" traslatable="false">pref_key_git_remote_name</string>
+    <string name="pref_key_git_branch_name" traslatable="false">pref_key_git_branch_name</string>
+    <string name="pref_key_git_default_repository_directory">pref_key_git_default_repository_directory</string>
+
+    <!-- These do not store any data. -->
+    <string name="pref_key_repos" translatable="false">pref_key_repos</string>
+    <string name="pref_key_version" translatable="false">pref_key_version</string>
+    <string name="pref_key_reload_getting_started" translatable="false">pref_key_reload_getting_started</string>
+    <string name="pref_key_clear_database" translatable="false">pref_key_clear_database</string>
+
+    <!-- State-type preferences, not changeable by user. They have no defaults. -->
+    <string name="pref_key_dropbox_token" translatable="false">pref_key_dropbox_token</string>
+    <string name="pref_key_is_getting_started_notebook_loaded" translatable="false">pref_key_is_getting_started_notebook_loaded</string>
+    <string name="pref_key_last_used_version_code" translatable="false">pref_key_last_used_version_code</string>
+    <string name="pref_key_last_successful_sync_time" translatable="false">pref_key_last_successful_sync_time</string>
+    <string name="pref_key_reminder_service_last_run_for_scheduled" translatable="false">pref_key_reminder_service_last_run_for_scheduled</string>
+    <string name="pref_key_reminder_service_last_run_for_deadline" translatable="false">pref_key_reminder_service_last_run_for_deadline</string>
+</resources>

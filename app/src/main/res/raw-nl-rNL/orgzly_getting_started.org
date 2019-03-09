@@ -1,0 +1,79 @@
+Welkom bij Orgzly!
+
+* Notities
+** Klik op de notitie om haar te openen
+** Klik en houd ingedrukt om de notitie te selecteren
+
+Je kunt meerdere notities selecteren.
+
+** Veeg de notitie naar rechts om haar snelmenu te openen
+
+Veeg naar links om een ander menu te openen.
+
+** Vouw een notitie met subnotities door op het icoon ernaast te klikken
+*** Er is geen limiet op het aantal niveaus dat je kunt hebben
+**** Gebruik dit om je notities beter te organiseren
+
+** Een notitie kan labels hebben :label1:label2:
+*** Subnotities erven deze labels :label3:
+
+Als je zoekt naar notities met label "label1", wordt deze notitie ook getoond.
+
+** TODO Een notitie kan een status hebben
+
+Je kunt zo veel statussen configureren als je wilt: TODO, NEXT, DONE, etc.
+
+*** Er zijn twee /types/ van statussen: to-do en done
+
+*** DONE Dit is een notitie met een /done/ type status
+CLOSED: [2018-01-24 Wed 17:00]
+
+** Notitie kan een geplande tijd hebben
+SCHEDULED: <2015-02-20 Fri 15:15>
+
+*** Tijden kunnen een herhaler hebben
+SCHEDULED: <2015-02-16 Mon .+1d>
+
+** Je kunt ook een deadlinetijd instellen
+DEADLINE: <2015-02-20 Fri>
+
+** Een notitie kan links gebruiken
+
+Bel een telefoonnummer (tel:555-2368) of [[sms:55-2368][send SMS]].
+
+Email [[mailto:support@orgzly.com][support@orgzly.com]], bezoek http://www.orgzly.com of lees [[http://www.orgzly.com/help][documentatie]].
+
+** Basale typografische nadruk wordt ondersteund
+
+Je kunt worden *dikgedrukt*, /schuin/, _onderstreept_, =verbato=, ~code~ en +doorgestreept+ maken.
+
+** Checkbox list is available
+
+- [X] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+Click the checkbox to toggle it. Press new-line button at the end of the line to create a new item.
+
+* Zoeken
+** Er worden veel zoekoperatoren ondersteund
+
+Je kunt notities doorzoeken op status, label, geplande- of deadlinetijd etc.
+
+Zie http://www.orgzly.com/help#search voor meer informatie.
+
+** Zoekopdrachten kunnen worden opgeslagen voor snelle toegang
+
+Probeer voorbeeldzoekopdrachten vanuit de navigatie lade en let op de zoekopdrachten die ze gebruiken.
+
+Je kunt je eigen opgeslagen zoekopdrachten maken door te klikken op "Zoeken" in de navigatie-lade.
+
+* Synchroniseren
+
+** Notebooks kunnen worden opgeslagen als platte-tekst bestanden
+
+Bestanden zijn in de indeling die wordt gebruikt door "Org-mode".
+
+** Soort locatie (archief)
+
+Je kunt je notitieboeken synchroniseren met een map op uw mobiele apparaat, SD-kaart of Dropbox.

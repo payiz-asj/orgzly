@@ -1,0 +1,79 @@
+¡Bienvenido a Orgzly!
+
+* Notas
+** Haga clic en la nota para abrirla
+** Haga clic y mantenga la nota para seleccionarla
+
+Se pueden seleccionar múltiples notas.
+
+** Arrastre la nota a la derecha para abrir el menú rápido
+
+Arrastre a la izquierda para abrir un menú diferente.
+
+** Plegar una nota que contiene subnotas haciendo clic en el icono
+*** No hay límite en el número de niveles que puede tener
+**** Utilice esto para organizar mejor sus notas
+
+** Una nota puede tener etiquetas: etiq1:etiq2:
+*** Las subnotas heredan las etiquetas :tag3:
+
+Si usted busca notas con la etiqueta "etiq1", esta nota también se devolverá.
+
+** TODO Una nota puede tener un estado
+
+Puede configurar cualquier número de estados a utilizar: TODO, NEXT, DONE, etc.
+
+*** Hay dos /tipos/ de estados: to-do y done
+
+*** DONE Esta es una nota con el tipo de estado /done/
+CLOSED: [2018-01-24 Wed 17:00]
+
+** Una nota puede tener una programación
+SCHEDULED: <2015-02-20 Fri 15:15>
+
+*** La fecha puede ser una repetición
+SCHEDULED: <2015-02-16 Mon .+1d>
+
+** También puede establecer un tiempo límite
+DEADLINE: <2015-02-20 Fri>
+
+** Una nota puede tener enlaces
+
+Marcar un número de teléfono (tel:555-2368) o [[sms:555-2368][enviar SMS]].
+
+Enviar email a [[mailto:support@orgzly.com][support@orgzly.com]], visitar http://www.orgzly.com o leer [[http://www.orgzly.com/help][documentation]].
+
+** Están soportados formatos tipográficos básicos
+
+Puede escribir palabras en *negrita*, /italica/, _subrarradas_, =literal=, ~código~ y +tachadas+.
+
+** Hay disponible lista de verificación
+
+- [X] Tarea 1
+- [ ] Tarea 2
+- [ ] Tarea 3
+
+Pulsa la caja de verificación para alternar su estado. Pulsa el botón de nueva línea al final de la línea para crear un nuevo elemento.
+
+* Buscar
+** Existen muchos operadores de búsqueda soportados
+
+Puede buscar notas por estado, etiqueta, programación, plazo tiempo, etc.
+
+Visite http://www.orgzly.com/help#search para aprender más.
+
+** Las consultas se pueden guardar como accesos rápidos
+
+Pruebe los ejemplos de búsqueda del cajón de navegación y observe las consultas que utilizan.
+
+Puede crear sus propias búsquedas guardadas haciendo clic en "Búsquedas" en el cajón de navegación.
+
+* Sincronizando
+
+** Los cuadernos pueden guardarse como archivos de texto plano
+
+Los archivos se guardan en formato "Org mode".
+
+** Tipo de ubicación (repositorio)
+
+Puede guardar cuadernos sincronizados en su dispositivo móvil, tarjeta SD o en Dropbox.

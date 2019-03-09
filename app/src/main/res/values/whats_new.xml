@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="whats_new_title">What\'s New</string>
+
+    <string name="whats_new_intro"><![CDATA[
+        Visit
+        <a href="http://www.orgzly.com">Orgzly.com</a>
+        and
+        <a href="mailto:support@orgzly.com">contact us</a>
+        if you have any issues or suggestions.
+
+        <br><br>
+
+        Follow us on
+        <a href="https://twitter.com/Orgzly">Twitter</a> and
+        <a href="https://www.facebook.com/Orgzly">Facebook</a> or join
+        <a href="https://plus.google.com/communities/104387367636243222968">Google+ Community</a>.
+
+        <br><br>
+
+        Help us <a href="https://crowdin.com/project/orgzly">translate</a> the app.
+    ]]></string>
+</resources>

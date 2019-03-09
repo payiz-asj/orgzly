@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.orgzly"
+    android:installLocation="auto">
+
+    <!-- Initially added for Dropbox sync. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Initially added for checking available connections (for sync). -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Required for: exporting files (Downloads), creating temporary files -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- For BroadcastReceiver below -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- For reminders -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".android.App"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_config"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppLightTheme.Light">
+        <activity
+            android:name=".android.ui.ShareActivity"
+            android:windowSoftInputMode="stateUnchanged">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.google.android.voicesearch.SELF_NOTE" />
+
+                <action android:name="com.google.android.gm.action.AUTO_SEND" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".android.ui.MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".android.ui.settings.SettingsActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".android.ui.repos.ReposActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".android.ui.repos.DropboxRepoActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".android.ui.repos.GitRepoActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".android.ui.repos.DirectoryRepoActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".android.ui.repos.BrowserActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".android.ui.BookChooserActivity"
+            android:icon="@mipmap/cic_shortcut_notebook"
+            android:label="@string/book_shortcut_label">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dropbox.core.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <data android:scheme="@string/dropbox_app_key_schema" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".android.widgets.FilterSelectDialogActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".android.ui.SyncShortcutActivity"
+            android:taskAffinity="" />
+
+        <service
+            android:name=".android.widgets.ListWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name=".android.sync.SyncService"
+            android:exported="true" />
+        <service
+            android:name=".android.NotificationActionService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".android.reminders.ReminderService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".android.ActionService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <!-- Not exported (not made available to other applications). -->
+        <provider
+            android:name=".android.provider.Provider"
+            android:authorities="com.orgzly"
+            android:exported="false" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <receiver
+            android:name=".android.widgets.ListWidgetProvider"
+            android:label="@string/list_widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/list_widget_info" />
+        </receiver>
+        <receiver android:name=".android.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".android.NotificationBroadcastReceiver" />
+        <receiver android:name=".android.NewNoteBroadcastReceiver" />
+        <receiver
+            android:name=".android.ActionReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver" />
+
+        <activity android:name=".login_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity android:name=".guide_page" />
+        <activity android:name=".calendar" />
+        <activity android:name=".fanqie" />
+        <activity android:name=".course" />
+        <activity android:name=".zhangben"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="GesturedListView">
+        <attr name="menu_container" format="reference"/>
+        <attr name="menu_for_fling_right" format="integer"/>
+        <attr name="menu_for_fling_left" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="IntegerRange">
+        <attr name="min" format="integer"/>
+        <attr name="max" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="WhatsNewChange">
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontSize">
+        <attr name="font_micro" format="dimension"/>
+        <attr name="font_small" format="dimension"/>
+        <attr name="font_medium" format="dimension"/>
+        <attr name="font_large" format="dimension"/>
+
+        <attr name="item_book_subtitle_text_size" format="dimension"/>
+        <attr name="item_book_details_text_size" format="dimension"/>
+        <attr name="item_head_book_name_text" format="dimension"/>
+        <attr name="item_head_bullet_text_size" format="dimension"/>
+        <attr name="item_head_title_text_size" format="dimension"/>
+        <attr name="item_head_fold_button_text_size" format="dimension"/>
+        <attr name="item_head_post_title_text_size" format="dimension"/>
+        <attr name="item_head_sub_title_text" format="dimension"/>
+        <attr name="item_head_sub_title_content_text" format="dimension"/>
+        <attr name="item_repo_text_size" format="dimension"/>
+        <attr name="fragment_note_time_buttons_text_size" format="dimension"/>
+
+        <!-- Icons sizes, but depend on set font size. -->
+        <attr name="item_book_info_icon_size" format="dimension"/>
+        <attr name="item_head_info_icon_size" format="dimension"/>
+
+        <attr name="item_head_indent_width" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorScheme">
+        <attr name="app_bar_bg_color" format="color"/>
+
+        <attr name="item_bg" format="reference" />
+
+        <attr name="item_selected_bg_color" format="color" />
+
+        <attr name="fragment_books_bg_color" format="color"/>
+        <attr name="item_book_card_bg_color" format="color"/>
+
+        <attr name="drawer_bg" format="color"/>
+        <attr name="drawer_item_bg" format="reference"/>
+
+        <attr name="item_head_state_todo_color" format="color"/>
+        <attr name="item_head_state_done_color" format="color"/>
+        <attr name="item_head_state_unknown_color" format="color"/>
+
+        <attr name="text_primary_color" format="color"/>
+        <attr name="text_secondary_color" format="color"/>
+        <attr name="text_disabled_color" format="color"/>
+        <attr name="text_highlighted_color" format="color"/>
+        <attr name="text_error_color" format="color"/>
+
+        <attr name="indent_line_color" format="color"/>
+
+        <attr name="snackbar_bg_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="Icons">
+        <attr name="ic_access_time_18dp" format="reference"/>
+        <attr name="ic_access_time_24dp" format="reference"/>
+        <attr name="ic_add_24dp" format="reference"/>
+        <attr name="ic_alarm_18dp" format="reference"/>
+        <attr name="ic_alarm_24dp" format="reference"/>
+        <attr name="ic_arrow_back_24dp" format="reference"/>
+        <attr name="ic_arrow_downward_24dp" format="reference"/>
+        <attr name="ic_arrow_forward_24dp" format="reference"/>
+        <attr name="ic_arrow_upward_black_24dp" format="reference"/>
+        <attr name="ic_center_focus_strong_24dp" format="reference"/>
+        <attr name="ic_close_24dp" format="reference"/>
+        <attr name="ic_content_cut_24dp" format="reference"/>
+        <attr name="ic_content_paste_24dp" format="reference"/>
+        <attr name="ic_delete_24dp" format="reference"/>
+        <attr name="ic_done_18dp" format="reference"/>
+        <attr name="ic_done_24dp" format="reference"/>
+        <attr name="ic_edit_24dp" format="reference"/>
+        <attr name="ic_event_24dp" format="reference"/>
+        <attr name="ic_flag_24dp" format="reference"/>
+        <attr name="ic_folder_open_18dp" format="reference"/>
+        <attr name="ic_folder_open_24dp" format="reference"/>
+        <attr name="ic_folder_open_48dp" format="reference"/>
+        <attr name="ic_format_list_bulleted_18dp" format="reference"/>
+        <attr name="ic_info_outline_18dp" format="reference"/>
+        <attr name="ic_info_outline_24dp" format="reference"/>
+        <attr name="ic_insert_drive_file_24dp" format="reference"/>
+        <attr name="ic_keyboard_arrow_up_24dp" format="reference"/>
+        <attr name="ic_label_outline_24dp" format="reference"/>
+        <attr name="ic_language_18dp" format="reference"/>
+        <attr name="ic_library_books_24dp" format="reference"/>
+        <attr name="ic_link_18dp" format="reference"/>
+        <attr name="ic_notifications_none_24dp" format="reference"/>
+        <attr name="ic_open_in_browser_24dp" format="reference"/>
+        <attr name="ic_repeat_24dp" format="reference"/>
+        <attr name="ic_rotate_left_24dp" format="reference"/>
+        <attr name="ic_rotate_right_24dp" format="reference"/>
+        <attr name="ic_search_24dp" format="reference"/>
+        <attr name="ic_settings_24dp" format="reference"/>
+        <attr name="ic_storage_24dp" format="reference"/>
+        <attr name="ic_swap_vert_24dp" format="reference"/>
+        <attr name="ic_sync_18dp" format="reference"/>
+        <attr name="ic_sync_24dp" format="reference"/>
+        <attr name="ic_today_18dp" format="reference"/>
+        <attr name="ic_today_24dp" format="reference"/>
+        <attr name="ic_star_border_24dp" format="reference"/>
+        <attr name="ic_unfold_more_24dp" format="reference"/>
+        <attr name="ic_warning_24dp" format="reference"/>
+        <attr name="ic_widgets_24dp" format="reference"/>
+
+        <attr name="oic_dropbox_linked" format="reference"/>
+        <attr name="oic_dropbox_not_linked" format="reference"/>
+        <attr name="oic_git_48dp" format="reference"/>
+        <attr name="oic_new_above_24dp" format="reference"/>
+        <attr name="oic_new_below_24dp" format="reference"/>
+        <attr name="oic_new_under_24dp" format="reference"/>
+        <attr name="oic_next_week_36dp" format="reference"/>
+        <attr name="oic_today_36dp" format="reference"/>
+        <attr name="oic_tomorrow_36dp" format="reference"/>
+
+        <attr name="oic_item_alpha" format="float"/>
+
+        <attr name="bullet_default" format="reference"/>
+        <attr name="bullet_folded" format="reference"/>
+        <attr name="bullet_unfolded" format="reference"/>
+    </declare-styleable>
+</resources>
